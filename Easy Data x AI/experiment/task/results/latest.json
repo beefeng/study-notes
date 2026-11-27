@@ -1,0 +1,29 @@
+{
+  "database_version": "5.7.25-OceanBase seekdb-v1.4.1.0",
+  "provider": "real endpoints configured in .env; requests issued by seekdb AI Functions",
+  "review_count": 12,
+  "function_calls": {
+    "AI_EMBED": 13,
+    "AI_PROMPT": 1,
+    "AI_COMPLETE": 2,
+    "AI_RERANK": 0
+  },
+  "rerank_configured": false,
+  "top_review_ids": [
+    10,
+    8,
+    12
+  ],
+  "summary": {
+    "summary": "退款流程状态可见、客服较耐心，但退款规则未提前说明且到账较慢，整体体验有好有不足。",
+    "sentiment": "mixed",
+    "review_count": 3
+  },
+  "transaction_demo": {
+    "rolled_back_local_write": true
+  },
+  "latency_ms": {
+    "samples": 13,
+    "p95": 4113.862082827836
+  }
+}
